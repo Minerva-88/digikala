@@ -1,0 +1,70 @@
+div.easy-access {
+  width: var(--width);
+  height: 70px;
+  position: fixed;
+  top: 60px;
+  z-index: 9999;
+  background-color: white;
+}
+/* logo*/
+div.logo{
+    width: 11%;
+    height: inherit;
+    float: right;
+    text-align: center;
+    vertical-align: top;
+}
+div.logo>svg{
+  margin-top: 19px;
+}
+/*search*/
+div.middle-search{
+  width: 74%;
+  height: inherit;
+  float: right;
+  vertical-align: top;
+}
+div.search{
+  width: 50%;
+  height: 44px;
+  border-radius: 10px;
+  border: unset;
+  outline: unset;
+  background-color: rgba(227, 227, 227, 0.6);
+  margin-top: 12px;
+  padding-right: 15px;
+}
+div.search>input[type=text]{
+  width: 95%;
+  height: 44px;
+  border-radius: 10px;
+  border: unset;
+  outline: unset;
+  background-color: rgba(227, 227, 227, 0.1);
+  font-size: 14px;
+}
+div.search>i{
+  color: rgba(0, 0, 0, 0.5);
+  vertical-align: middle;
+}
+div.search>input[type=text]:focus{
+  background-color: whitesmoke;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+div.search>input[type=text]::placeholder{
+  font-size: 12px;
+  padding-right : 15px;
+}
+/*account*/
+div.account{
+  width: 15%;
+  height: inherit;
+  float: right;
+  vertical-align: top;
+  }
+div.account>a>i{
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 22px;
+  margin: 24px;
+}
+

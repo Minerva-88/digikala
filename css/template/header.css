@@ -1,0 +1,8 @@
+@import url(./header/banner.css);
+@import url(./header/easy-access.css);
+@import url(./header/menue.css);
+@import url(./header/product.css);
+header {
+  width: var(--width);
+  height: 318px;
+  }

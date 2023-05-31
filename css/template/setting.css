@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: yekan;
+}
+:root{
+    --width:100%
+}
+div.wrapper{
+width: var(--width);
+}
+@font-face {
+  font-family: yekan;
+  src: url(../../font/iranyekanwebregular.e31c09af.woff2);
+}
+::-webkit-scrollbar{
+  width: 7px;
+  background-color: rgba(162, 162, 162, 0.573);
+  direction: rtl;
+}
+::-webkit-scrollbar-thumb{
+  height: 4px;
+  background-color: gray;
+}
